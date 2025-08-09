@@ -25,7 +25,8 @@ SECRET_KEY = 'django-insecure-$e&^wemedcyd-4(cqf(cg-qtt=m9cm11^b_q_l18ppe7y&4-pt
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['fine-hyd1.onrender.com', 'localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['fin-app1.onrender.com']
+
 
 
 
@@ -139,4 +140,5 @@ REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': (
         'rest_framework_simplejwt.authentication.JWTAuthentication',
     ),
+
 }
